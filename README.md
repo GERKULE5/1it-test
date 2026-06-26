@@ -15,15 +15,13 @@ cd 1it-test
 ```bash
 python -m venv .venv
 .venv\Scripts\activate
+pip install -r requirements.txt
 ```
 
 **Linux/macOS:**
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
-```
-
-```bash
 pip install -r requirements.txt
 ```
 
